@@ -1,8 +1,9 @@
 const display = document.getElementById("display");
 
-function appendToDisplay(input){
-  display.value += input;
+function appendToDisplay(value) {
+    document.getElementById('display').value += value;
 }
+
 
 function Clear(){
   display.value = "";
