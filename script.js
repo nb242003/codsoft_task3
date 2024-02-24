@@ -11,7 +11,7 @@ function Clear(){
 
 function Calculate(){
   try{
-    display.value=eval(display.value);
+     document.getElementById('display').value=eval(display.value);
   }
   catch(error){
     display.value="error";
